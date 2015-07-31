@@ -119,26 +119,31 @@ namespace MyFirstApp
             //Console.Read(); 
 
             /* Excercise 6 */
+            //int lottery = 451876;
 
-            int lottery = 451876;
+            //switch (lottery)
+            //{
+            //    case 461876:
+            //        Console.WriteLine("You won a mobile set.");
+            //        break;
+            //    case 452167:
+            //        Console.WriteLine("You won an Xbox.");
+            //        break;
+            //    case 742167:
+            //        Debug.WriteLine("Sorry you won nothing.");
+            //        break;
+            //    case 741963:
+            //        Debug.WriteLine("You won a cinema ticket");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Sorry you won nothing.");
+            //        break;
+            //}
 
-            switch (lottery)
+            /* Excercise 7 */
+            for (int i = 0; i <= 10; i++)
             {
-                case 461876:
-                    Console.WriteLine("You won a mobile set.");
-                    break;
-                case 452167:
-                    Console.WriteLine("You won an Xbox.");
-                    break;
-                case 742167:
-                    Debug.WriteLine("Sorry you won nothing.");
-                    break;
-                case 741963:
-                    Debug.WriteLine("You won a cinema ticket");
-                    break;
-                default:
-                    Console.WriteLine("Sorry you won nothing.");
-                    break;
+                Console.WriteLine("Welcome to C#");
             }
             Console.Read();
         }

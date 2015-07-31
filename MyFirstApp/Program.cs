@@ -141,9 +141,16 @@ namespace MyFirstApp
             //}
 
             /* Excercise 7 */
-            for (int i = 0; i <= 10; i++)
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.WriteLine("Welcome to C#");
+            //}
+
+            int i = 1;
+            while (i <= 10)
             {
                 Console.WriteLine("Welcome to C#");
+                i++;
             }
             Console.Read();
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace MyFirstApp
 {
@@ -80,16 +81,64 @@ namespace MyFirstApp
             //}
             //Console.Read();
 
-            /* Excercise 3 */
-            string weather = "sunny";
+            /* Excercise 4 */
+            //string weather = "rainy";
 
-            if (weather == "rainy")
+            //if (weather == "rainy")
+            //{
+            //    Console.WriteLine("Don't play outside, it's rainy.");
+            //}
+            //else if (weather == "sunny")
+            //{
+            //    Console.WriteLine("You can play outside, it's sunny");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Weather cannot be determined, try again");
+            //}
+            //Console.Read();
+
+            /* Excercise 5 */
+            //string weather = "cloudy";
+
+            //switch (weather)
+            //{
+            //    case "rainy":
+            //        Console.WriteLine("Don't play outside, it's rainy");
+            //        break;
+            //    case "sunny":
+            //        Console.WriteLine("You can play outside, it's sunny.");
+            //        break;
+            //    case "cloudy":
+            //        Debug.WriteLine("Play but take your umbrella with you, it's cloudy.");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Weather cannot be determined");
+            //        break;                                      
+            //}
+            //Console.Read(); 
+
+            /* Excercise 6 */
+
+            int lottery = 451876;
+
+            switch (lottery)
             {
-                Console.WriteLine("Don't play outside, it's rainy.");
-            }
-            if (weather == "sunny")
-            {
-                Console.WriteLine("You can play outside, it's sunny");
+                case 461876:
+                    Console.WriteLine("You won a mobile set.");
+                    break;
+                case 452167:
+                    Console.WriteLine("You won an Xbox.");
+                    break;
+                case 742167:
+                    Debug.WriteLine("Sorry you won nothing.");
+                    break;
+                case 741963:
+                    Debug.WriteLine("You won a cinema ticket");
+                    break;
+                default:
+                    Console.WriteLine("Sorry you won nothing.");
+                    break;
             }
             Console.Read();
         }

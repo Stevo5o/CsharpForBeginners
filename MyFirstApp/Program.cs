@@ -158,18 +158,54 @@ namespace MyFirstApp
             //    Console.WriteLine(c);
             //}
 
-            int i = 0;
-            int sum = 0;
-            while(i <= 100)
+            //int i = 0;
+            //int sum = 0;
+            //while(i <= 100)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        sum = sum + i;
+            //    }
+            //    i++;
+            //}
+            //Console.WriteLine("Sum of even numbers between 0 and 100 is: " + sum);
+
+            //int[] salaries = new int[10] { 78, 15, 27, 87, 56, 74, 12, 36, 98, 41 };
+
+            //int a = salaries[0];
+            //int b = salaries[5];
+
+            //Console.WriteLine(a + b);
+
+            //salaries[0] = 25;
+            //salaries[5] = 25;
+
+            //a = salaries[0];
+            //b = salaries[5];
+
+            //Console.WriteLine(a + b);
+
+            int[,] salaries = new int[2, 3];
+
+            salaries[0, 0] = 10; // first row first column
+            salaries[0, 1] = 20; // first row second column
+            salaries[0, 2] = 30; // first row third column
+
+            salaries[1, 0] = 40; // 2nd row first column 
+            salaries[1, 1] = 50; // 2nd row first column
+
+            salaries[1, 2] = 60; // 2nd row third column
+
+            for (int i = 0; i < 2; i++)
             {
-                if (i % 2 == 0)
+                for (int j = 0; j < 3; j++)
                 {
-                    sum = sum + i;
+                    Console.Write(salaries[i, j] + " ");
                 }
-                i++;
+                Console.WriteLine();
             }
-            Console.WriteLine("Sum of even numbers between 0 and 100 is: " + sum);
             Console.Read();
         }
     }
 }
+

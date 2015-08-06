@@ -146,12 +146,29 @@ namespace MyFirstApp
             //    Console.WriteLine("Welcome to C#");
             //}
 
-            int i = 1;
-            while (i <= 10)
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine("Welcome to C#");
+            //    i++;
+            //}
+
+            //foreach(char c in "Welcome to C#")
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+            int i = 0;
+            int sum = 0;
+            while(i <= 100)
             {
-                Console.WriteLine("Welcome to C#");
+                if (i % 2 == 0)
+                {
+                    sum = sum + i;
+                }
                 i++;
             }
+            Console.WriteLine("Sum of even numbers between 0 and 100 is: " + sum);
             Console.Read();
         }
     }

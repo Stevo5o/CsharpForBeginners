@@ -185,25 +185,45 @@ namespace MyFirstApp
 
             //Console.WriteLine(a + b);
 
-            int[,] salaries = new int[2, 3];
+            //int[,] salaries = new int[2, 3];
 
-            salaries[0, 0] = 10; // first row first column
-            salaries[0, 1] = 20; // first row second column
-            salaries[0, 2] = 30; // first row third column
+            //salaries[0, 0] = 10; // first row first column
+            //salaries[0, 1] = 20; // first row second column
+            //salaries[0, 2] = 30; // first row third column
 
-            salaries[1, 0] = 40; // 2nd row first column 
-            salaries[1, 1] = 50; // 2nd row first column
+            //salaries[1, 0] = 40; // 2nd row first column 
+            //salaries[1, 1] = 50; // 2nd row first column
 
-            salaries[1, 2] = 60; // 2nd row third column
+            //salaries[1, 2] = 60; // 2nd row third column
 
-            for (int i = 0; i < 2; i++)
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write(salaries[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            int[,] tables = new int[4, 10];
+
+            for (int i = 2; i < 6; i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 10; j++)
                 {
-                    Console.Write(salaries[i, j] + " ");
+                    tables[i - 2, j] = i * (j + 1);
+                }
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Console.Write(tables[i, j] + "  ");
                 }
                 Console.WriteLine();
             }
+
             Console.Read();
         }
     }

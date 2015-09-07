@@ -16,7 +16,7 @@ namespace MyFirstApp
             p.age  = 38;
             p.country = "Ireland";
             
-            Console.WriteLine(p.name + ", " + p.age + ", "+ p.country);         
+            Console.WriteLine(p.name + ", " + p.age + ", " + p.country);         
 
             Console.Read();
         }

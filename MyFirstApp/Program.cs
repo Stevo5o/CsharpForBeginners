@@ -12,9 +12,9 @@ namespace MyFirstApp
         static void Main(string[] args)
         {
             Player p = new Player();
-            p.name = "SteJ";
-            p.age  = 38;
-            p.country = "Ireland";
+            //p.name = "SteJ";
+            //p.age  = 38;
+            //p.country = "Ireland";
             
             Console.WriteLine(p.name + ", " + p.age + ", " + p.country);         
 

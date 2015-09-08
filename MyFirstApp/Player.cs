@@ -7,5 +7,12 @@ namespace MyFirstApp
 		public string name;
 		public int age;
 		public string country;
-	}
+        // constructor
+        public Player()
+        {
+            name = "Henry";
+            age = 30;
+            country = "USA";
+        }
+    }
 }
